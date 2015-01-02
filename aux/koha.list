@@ -1,0 +1,2 @@
+deb http://ftp.indexdata.dk/debian wheezy main
+deb http://debian.koha-community.org/koha squeeze-dev main
