@@ -22,7 +22,8 @@ RUN wget -O- http://ftp.indexdata.dk/debian/indexdata.asc | apt-key add -
 # Install dependencies
 RUN apt-get update && apt-get -y install \
     koha-deps                            \
-    koha-perldeps
+    koha-perldeps                        \
+    libdbix-connector-perl
 
 # Remove default Zebra script
 RUN rm /etc/init.d/zebrasrv
